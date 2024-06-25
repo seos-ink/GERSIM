@@ -1,0 +1,65 @@
+
+  
+  .cards .card {
+    margin: 10px;
+  }
+  
+  .card-sec {
+    margin: 10px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .btn-primary {
+    border: 2px solid blue;
+  }
+  
+
+  
+  .card:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+  
+  .titulosobre {
+    margin-top: 15px;
+  }
+  
+  .cardsdois {
+    max-width: 2200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 580px));
+    gap: 50px;
+    padding-top: 20px;
+  }
+  .cartão {
+    display: flex;
+  }
+  .maiscards {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+ 
+  /*------------------------------------CARD--------------------------------------------*/
+  .card {
+    max-width: 800px;
+    max-height: 900px;
+  }
+  
+  .card img {
+    min-height: 399.9px;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  

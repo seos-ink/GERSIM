@@ -1,0 +1,70 @@
+.dropdown-item:hover {
+    border-bottom: 2.5px solid rgb(0, 0, 0);
+    transition: 0.75s;
+}
+
+.nav-link:hover {
+    border-bottom: 2.5px solid rgb(0, 0, 0);
+    transition: 0.75s;
+}
+
+.nav-link a:hover {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+header.menu {
+    background-color: green;
+}
+
+.background {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/vecteezy_blackboard-with-formulas_27084865.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.background img {
+    filter: brightness(50%);
+}
+
+.background h1 {
+    font-size: 60px;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px white, -2px -2px 2px white;
+    color: black;
+    margin-bottom: 350px;
+}
+
+.background .conteudo {
+    justify-content: left;
+    align-items: left;
+}
+
+.background .conteudo p {
+    color: white;
+}
+
+
+footer {
+    background-color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 338px;
+    padding: 5px;
+}
+
+
+.cardsobre {
+    justify-content: center;
+}
+
+.card:hover {
+    transition: 0.5s;
+    border: 2px solid #093E32;
+
+}
